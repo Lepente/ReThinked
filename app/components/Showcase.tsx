@@ -27,7 +27,7 @@ export default function Showcase () {
       </div>
     </div>
     <img
-      src="../images/project-mockup.png"
+      src="../images/Project-Mockup.png"
       alt="Website Image"
       className="row-start-2 lg:row-start-1"
       width={1200}
