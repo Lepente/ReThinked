@@ -5,7 +5,7 @@ export default function Contact () {
             <>
             <div id="contact" className="py-8 lg:py-16 px-4 mx-auto max-w-screen-md z-10">
                 <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-center text-gray-900 dark:text-white">Let's work together!</h2>
-                <p className="mb-8 lg:mb-16 font-light text-center text-lg text-gray-600 dark:text-gray-400 sm:text-xl">Have a question, an idea, or a project in mind? We're here to help you turn your vision into reality. Whether you're looking for web design, development, or just want to explore the possibilities, drop us a message.</p>
+                <p className="mb-8 lg:mb-16 font-light text-center text-lg text-gray-600 sm:text-xl">Have a question, an idea, or a project in mind? We're here to help you turn your vision into reality. Whether you're looking for web design, development, or just want to explore the possibilities, drop us a message.</p>
                 <form action="#" className="contact-form space-y-8">
                     <div>
                         <label className="block mb-2 text-sm font-semibold text-gray-600">Your email</label>

@@ -38,7 +38,7 @@ export default function Home() {
 
     <div className="relative isolate px-6 pt-14 lg:px-8">
       
-      <div className="mx-auto max-w-3xl py-32 sm:py-48 lg:py-64">
+      <div className="mx-auto max-w-3xl py-32 sm:py-48 2xl:py-64 md:py-32">
 
         <div className="text-center">
           <h1 className="text-4xl font-extrabold tracking-tight text-gray-900 sm:text-6xl">
@@ -63,10 +63,10 @@ export default function Home() {
 
 
 
-<div id="about" className="overflow-hidden bg-white py-24 sm:py-32">
-<div className="mx-auto max-w-8xl px-6 lg:px-40">
-  <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-4 lg:mx-0 lg:max-w-none lg:grid-cols-2">
-    <div className="lg:pr-0 lg:pt-4">
+<div id="about" className="about-container mx-5 md:mx-10 lg:mx-20 2xl:mx-40 py-12 sm:py-32 lg:py-16 2xl:py-32 mt-20 mb-40 rounded-3xl">
+<div className="mx-auto max-w-8xl px-6 md:px-10 lg:px-20">
+  <div className="mx-auto grid grid-cols-1 grid-rows-1 lg:grid-rows-1 gap-x-8 gap-y-16 sm:gap-y-4 lg:mx-0 lg:max-w-none lg:grid-cols-2">
+    <div className="lg:pr-0 lg:pt-4 row-start-1 row-end-2">
       <div className="mr-12 lg:max-w-xl">
         <p className="text-base font-semibold leading-7 blue-txt">Why This Agency?</p>
         <h2 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl max-w-6xl">We create high-converting websites that actually turn consumers into customers.</h2>
@@ -86,12 +86,13 @@ export default function Home() {
       </div>
     </div>
     <img
-      src="../images/slide-graphic.png"
+      src="../images/side-graphic.png"
       alt="Website Image"
-      className="w-[48rem] max-w-3xl rounded-xl ring-1 ring-gray-400/10 sm:w-[57rem] mt-16 md:-ml-4 lg:-ml-0 hidden sm:block mr-0"
+      className="side-image row-start-2 lg:row-start-1"
       width={700}
       height={144}
     />
+  <span className="text-gray-600 text-xs text-end col-start-1 col-end-1 lg:col-start-2 lg:col-end-2">Illustration from <a href="https://absurd.design/">absurd.design</a></span>
   </div>
 </div>
 </div>
@@ -102,8 +103,7 @@ export default function Home() {
 
             <Testimonial />
 
-  <img src="../images/footer-background.png" alt="Background Image" className="footer-bg h-screen absolute w-full opacity-70" />
-            <Contact />
+              
 
             <Footer />
 

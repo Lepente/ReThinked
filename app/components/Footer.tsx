@@ -1,11 +1,15 @@
 import React from 'react'
+import Contact from './Contact.tsx'
 
 export default function Footer () {
     return (
         
 
-<footer className="rounded-lg mx-4 z-10">
-    <div className="w-full max-w-screen-xl mx-auto p-4 md:py-8">
+<footer className="z-10 mx-5 md:mx-10 lg:mx-20 2xl:mx-40 rounded-3xl my-2.5 md:my-5 lg:my-10 2xl:my-20">
+
+    <Contact />
+
+    <div className="w-full max-w-screen-xl mx-auto p-4 md:py-8 px-6 md:px-20 lg:px-24">
         <div className="sm:flex sm:items-center sm:justify-between">
             <a href="#" className="flex items-center mb-6 sm:mb-0 space-x-3 rtl:space-x-reverse">
                 <img src="../images/Logo.png" className="h-8" alt="ReThinked Web Solutions Logo" />
