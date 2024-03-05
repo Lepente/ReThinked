@@ -24,9 +24,7 @@ export default function Footer () {
                 <li>
                     <a href="#work" className="pr-4 hover:underline me-4 md:me-6">Work</a>
                 </li>
-                <li>
-                    <a href="#" className="pr-4 hover:underline me-4 md:me-6">FAQ</a>
-                </li>
+                
                 <li>
                     <a href="#contact" className="hover:underline">Contact</a>
                 </li>

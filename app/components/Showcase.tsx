@@ -3,10 +3,12 @@ import React from "react";
 export default function Showcase () {
     return (
         <>
-        <div id="about" className="mx-5 md:mx-10 lg:mx-20 2xl:mx-20 py-12 sm:py-32 lg:py-16 2xl:py-32 mt-20 mb-40 rounded-3xl">
-        <div id="work" className="m-auto work-container text-center mx-5 md:mx-10 lg:mx-40">
-            <h3 className="text-5xl mb-4 font-bold">We've worked on</h3>
+        <div id="about" className="mx-5 md:mx-10 lg:mx-20 2xl:mx-20 py-12 sm:py-32 lg:py-16 2xl:py-32 mt-20 rounded-3xl">
+        <div id="work" className="m-auto work-container text-center mx-0 md:mx-10 lg:mx-40">
+            <h3 className="sm:text-5xl text-4xl mb-4 font-bold">We've worked on</h3>
+            <p className="sm:text-xl text-md font-medium text-gray-600 sm:max-w-xl text-center m-auto">Coming soon! We are currently picking up the pieces and putting together an awesome portfolio. Check in later!</p>
         </div>
+{/*
 <div className="mx-auto max-w-8xl px-6 md:px-10 lg:px-20">
   <div className="mx-auto grid grid-cols-1 grid-rows-1 lg:grid-rows-1 gap-x-8 gap-y-16 sm:gap-y-4 lg:mx-0 lg:max-w-none lg:grid-cols-2">
     <div className="lg:pr-0 lg:pt-4 row-start-1 row-end-2">
@@ -35,6 +37,7 @@ export default function Showcase () {
     />
   </div>
 </div>
+*/}
 </div>
         </>
     )

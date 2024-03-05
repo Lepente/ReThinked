@@ -11,15 +11,15 @@ const features = [
   {
     name: 'From Brief to Development |',
     description:
-      'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.',
+      'Our team ensures a seamless transition from initial brief to website development, prioritizing your vision and objectives every step of the way.',
   },
   {
     name: 'Maintenance |',
-    description: 'Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo.',
+    description: 'We handle all aspects of website maintenance, ensuring your online presence remains optimized and up-to-date while you focus on growing your business.',
   },
   {
     name: 'Fast & Modern |',
-    description: 'Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.',
+    description: 'We deliver fast and modern web solutions, leveraging cutting-edge technology to provide your audience with an engaging and user-friendly experience.',
   },
 ] 
 
@@ -64,7 +64,7 @@ export default function Home() {
 
 
 <div id="about" className="about-container mx-5 md:mx-10 lg:mx-20 2xl:mx-40 py-12 sm:py-32 lg:py-16 2xl:py-32 mt-20 mb-40 rounded-3xl">
-<div className="mx-auto max-w-8xl px-6 md:px-10 lg:px-20">
+<div className="mx-auto max-w-8xl px-1 md:px-10 lg:px-20">
   <div className="mx-auto grid grid-cols-1 grid-rows-1 lg:grid-rows-1 gap-x-8 gap-y-16 sm:gap-y-4 lg:mx-0 lg:max-w-none lg:grid-cols-2">
     <div className="lg:pr-0 lg:pt-4 row-start-1 row-end-2">
       <div className="mr-12 lg:max-w-xl">
@@ -97,7 +97,7 @@ export default function Home() {
 </div>
 </div>
 
-            <Showcase />
+            <Showcase />            
 
             <Services />
 

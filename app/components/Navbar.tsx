@@ -8,7 +8,6 @@
       { name: 'About', href: '#about' },
       { name: 'Services', href: '#services' },
       { name: 'Work', href: '#work' },
-      { name: 'FAQ', href: '#' },
     ]
 
 export default function Navbar () {
